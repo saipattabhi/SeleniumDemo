@@ -58,6 +58,7 @@ public class LoginTest {
 		
 		MyAccountPage myAccountPage=new MyAccountPage(driver);
 		Assert.assertTrue(myAccountPage.accountbreadcrumb().isDisplayed());
+		System.out.println("The code has been updated");
 		
 		Thread.sleep(3000);
 
